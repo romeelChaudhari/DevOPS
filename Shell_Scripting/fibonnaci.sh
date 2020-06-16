@@ -18,6 +18,6 @@ echo -n "$a "
 fn=$((first + second)) 
 a=$b 
 b=$fn 
-echo " "
 done
+echo " "
 				
