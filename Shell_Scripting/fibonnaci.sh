@@ -1,23 +1,24 @@
-# Program for Fibonacci 
- 
-#total_Number 
-N=10
+# Program for Fibonacci
+# Series
 
-#first_Number 
-first=0 
+# Static input fo N
 
-# Second Number of the 
-# Fibonacci Series 
-second=1 
+# First Number of the
+# Fibonacci Series
 
-echo "The Fibonacci series is as follows : "
 
-for (( i=0; i<N; i++ )) 
+# Second Number of the
+# Fibonacci Series
+
+
+echo -n "The Fibonacci series is :  "
+a=0
+b=1
+for (( i=0; i<$1; i++ ))
 do
 echo -n "$a "
-fn=$((first + second)) 
-a=$b 
-b=$fn 
+fn=$((a + b))
+a=$b
+b=$fn
 done
 echo " "
-				
